@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: rgb(12, 241, 165);
+    height: 60px;
+    position: sticky;
+    top: 0;
+}
+
+
+header h1{
+    color: blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-style: italic;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.row{
+    background-color: rgb(28, 235, 166);
+    height: 700px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.col{
+    background-color: aqua;
+    height: 400px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+}
+
+img{
+    padding: 10px;
+    border-radius: 15%;
+}
+
+h2{
+    color: brown;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4{
+    color: crimson;
+    margin: 5px;
+    font-size: larger;
+}
+
+#btn{
+    background-color: black;
+    padding: 5px;
+    border-radius: 15%;
+    color: aliceblue;
+    /* margin-left: 30%; */
+}
+
+footer{
+    background-color: rgb(96, 190, 245);
+    height: 120px;
+    width: 100%;
+}
+
+h3{
+    color: aliceblue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+
+p{
+    color: brown;
+    font-style: italic;
+    margin: 10px;
+}
+
+
+.banner{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX6Vu2wHIyWelxTAxJVJugRmOhMjehajU13w&usqp=CAU);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+p:hover{
+    color: darkblue;
+}
